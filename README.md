@@ -1,2 +1,5 @@
-# notebooks-eii
-Julyter Notebooks used in clases (UCLM-EII)
+# Informática EII
+
+Jupyter Notebooks used in clases (UCLM-EII).
+
+Francisco Moya
