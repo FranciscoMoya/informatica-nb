@@ -1,0 +1,14 @@
+blockdiag {
+    A -> IF -> B1,B2 -> C
+    
+    default_fontsize = 24
+    default_node_color = "orange"
+    
+    IF[label="Condición", shape="flowchart.condition", width=180, fontsize=20]    
+    
+    A -> B1,B2 [style=none]
+    //IF -> C [style=none]
+    IF -> B1,B2 [fontsize=14]
+    IF -> B1 [label="True"]
+    IF -> B2 [label="False"]
+}
