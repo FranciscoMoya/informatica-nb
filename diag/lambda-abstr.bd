@@ -1,0 +1,15 @@
+blockdiag {
+    default_fontsize = 24
+    default_node_color = "orange"
+    default_group_color = "lightgray"
+    
+    fun [label="
+· def max(x,y):    ·
+·     if x > y:    ·
+·         return x ·
+·     return y     · 
+", height=100, width=270, color=pink]
+    call [label="max(w,z)",color=pink]
+
+    call -> fun [style=dashed]
+}
