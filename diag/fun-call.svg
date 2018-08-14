@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg viewBox="0 0 540 240" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2" />
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc>blockdiag {
+    default_fontsize = 18
+    default_node_color = "orange"
+    default_group_color = "lightgray"
+    span_width = 80
+    span_height = 25
+    
+    x,y,3,4 [width=20, height=30]
+    x,y [style=none, color=lightyellow]
+    fun [label="", background="diag/maxfn.png", color="pink", height=80, width=150]
+    call [label="", background="diag/maxfncall.png", color=pink, height=80, width=150]
+
+    group { color=white; group { label="Parámetros formales"; fontsize=14; orientation=portrait; x; y; }; fun; }
+    group { color=white; group{ label="Marco de pila"; fontsize=14; orientation=portrait; 3; 4;}; call; }
+    x -&gt; 3 [style=dashed]; y -&gt; 4 [style=dashed]
+    x -&gt; y [style=none]
+    3 -&gt; 4 [style=none]
+    fun -&gt; call [style=none]
+}</desc>
+  <rect fill="rgb(255,255,255)" height="202" style="filter:url(#filter_blur)" width="170" x="70" y="19" />
+  <rect fill="rgb(211,211,211)" height="97" style="filter:url(#filter_blur)" width="170" x="70" y="19" />
+  <rect fill="rgb(255,255,255)" height="202" style="filter:url(#filter_blur)" width="170" x="300" y="19" />
+  <rect fill="rgb(211,211,211)" height="97" style="filter:url(#filter_blur)" width="170" x="300" y="19" />
+  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="148" y="31" />
+  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="148" y="86" />
+  <rect fill="rgb(0,0,0)" height="80" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="150" x="83" y="141" />
+  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="378" y="31" />
+  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="378" y="86" />
+  <rect fill="rgb(0,0,0)" height="80" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="150" x="313" y="141" />
+  <rect fill="rgb(255,255,224)" height="30" stroke="rgb(0,0,0)" stroke-dasharray="0 65535" width="20" x="145" y="25" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="10" x="155.0" y="47">x</text>
+  <rect fill="rgb(255,255,224)" height="30" stroke="rgb(0,0,0)" stroke-dasharray="0 65535" width="20" x="145" y="80" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="10" x="155.0" y="104">y</text>
+  <rect fill="rgb(255,192,203)" height="80" stroke="rgb(255,192,203)" width="150" x="80" y="135" />
+  <image height="80" width="150" x="80" xlink:href="diag/maxfn.png" y="135" />
+  <rect fill="none" height="80" stroke="rgb(0,0,0)" width="150" x="80" y="135" />
+  <rect fill="rgb(255,165,0)" height="30" stroke="rgb(0,0,0)" width="20" x="375" y="25" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="10" x="385.0" y="47">3</text>
+  <rect fill="rgb(255,165,0)" height="30" stroke="rgb(0,0,0)" width="20" x="375" y="80" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="10" x="385.0" y="102">4</text>
+  <rect fill="rgb(255,192,203)" height="80" stroke="rgb(255,192,203)" width="150" x="310" y="135" />
+  <image height="80" width="150" x="310" xlink:href="diag/maxfncall.png" y="135" />
+  <rect fill="none" height="80" stroke="rgb(0,0,0)" width="150" x="310" y="135" />
+  <path d="M 165 40 L 367 40" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="374,40 367,36 367,44 374,40" stroke="rgb(0,0,0)" />
+  <path d="M 165 95 L 367 95" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="374,95 367,91 367,99 374,95" stroke="rgb(0,0,0)" />
+  <path d="M 165 40 L 367 40" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="374,40 367,36 367,44 374,40" stroke="rgb(0,0,0)" />
+  <path d="M 165 95 L 367 95" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="374,95 367,91 367,99 374,95" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="114" x="155.0" y="24">Parámetros formales</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="8" font-style="normal" font-weight="normal" text-anchor="middle" textLength="52" x="385.0" y="23">Marco de pila</text>
+</svg>

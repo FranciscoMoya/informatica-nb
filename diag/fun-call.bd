@@ -1,23 +1,19 @@
 blockdiag {
-    default_fontsize = 24
+    default_fontsize = 18
     default_node_color = "orange"
     default_group_color = "lightgray"
-    span_width = 150
+    span_width = 80
+    span_height = 25
     
-    x,y,3,4 [width=30, height=35]
+    x,y,3,4 [width=20, height=30]
     x,y [style=none, color=lightyellow]
-    fun [label="
-· def max(x,y):    ·
-·     if x > y:    ·
-·         return x ·
-·     return y     · 
-", height=100, width=270, color=pink]
-    call [label="max(3,4)",color=pink]
+    fun [label="", background="diag/maxfn.png", color="pink", height=80, width=150]
+    call [label="", background="diag/maxfncall.png", color=pink, height=80, width=150]
 
-    group { color=white; fun; group { label="Parámetros formales"; fontsize=14; orientation=portrait; x; y; }; }
-    group { color=white; group{ label="Marco de pila"; orientation=portrait; 3; 4;}; call; }
+    group { color=white; group { label="Parámetros formales"; fontsize=14; orientation=portrait; x; y; }; fun; }
+    group { color=white; group{ label="Marco de pila"; fontsize=14; orientation=portrait; 3; 4;}; call; }
     x -> 3 [style=dashed]; y -> 4 [style=dashed]
-    y -> 3 [style=none]
     x -> y [style=none]
     3 -> 4 [style=none]
+    fun -> call [style=none]
 }

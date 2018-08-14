@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg viewBox="0 0 692 200" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2" />
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc>blockdiag {
+    default_fontsize = 24
+    default_node_color = "orange"
+    default_group_color = "lightgray"
+    
+    fun [label="", background="diag/maxfn.png", height=120, width=250, color=pink]
+    call [label="", background="diag/maxfncall2.png", height=120, width=250, color=pink]
+
+    call -&gt; fun [style=dashed]
+}</desc>
+  <rect fill="rgb(0,0,0)" height="120" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="250" x="381" y="46" />
+  <rect fill="rgb(0,0,0)" height="120" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="250" x="67" y="46" />
+  <rect fill="rgb(255,192,203)" height="120" stroke="rgb(255,192,203)" width="250" x="378" y="40" />
+  <image height="120" width="250" x="378" xlink:href="diag/maxfn.png" y="40" />
+  <rect fill="none" height="120" stroke="rgb(0,0,0)" width="250" x="378" y="40" />
+  <rect fill="rgb(255,192,203)" height="120" stroke="rgb(255,192,203)" width="250" x="64" y="40" />
+  <image height="120" width="250" x="64" xlink:href="diag/maxfncall2.png" y="40" />
+  <rect fill="none" height="120" stroke="rgb(0,0,0)" width="250" x="64" y="40" />
+  <path d="M 314 100 L 370 100" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
+  <polygon fill="rgb(0,0,0)" points="377,100 370,96 370,104 377,100" stroke="rgb(0,0,0)" />
+</svg>
