@@ -5,7 +5,7 @@ blockdiag {
     span_height = 80
     default_node_color = "orange"
     
-    IF[label="Condición", shape="flowchart.condition", width=180, fontsize=20]    
+    IF[label="Condición", shape="flowchart.condition", width=180, fontsize=18]    
     IF -> B [folded,label="True",fontsize=14]
     IF -> C [label="False",fontsize=14]
     A -> B [style=none]
