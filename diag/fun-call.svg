@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg viewBox="0 0 540 240" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 540 240" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%;">
   <defs id="defs_block">
     <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
-      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2" />
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2"></feGaussianBlur>
     </filter>
   </defs>
   <title>blockdiag</title>
@@ -26,38 +24,38 @@
     3 -&gt; 4 [style=none]
     fun -&gt; call [style=none]
 }</desc>
-  <rect fill="rgb(255,255,255)" height="202" style="filter:url(#filter_blur)" width="170" x="70" y="19" />
-  <rect fill="rgb(211,211,211)" height="97" style="filter:url(#filter_blur)" width="170" x="70" y="19" />
-  <rect fill="rgb(255,255,255)" height="202" style="filter:url(#filter_blur)" width="170" x="300" y="19" />
-  <rect fill="rgb(211,211,211)" height="97" style="filter:url(#filter_blur)" width="170" x="300" y="19" />
-  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="148" y="31" />
-  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="148" y="86" />
-  <rect fill="rgb(0,0,0)" height="80" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="150" x="83" y="141" />
-  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="378" y="31" />
-  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="378" y="86" />
-  <rect fill="rgb(0,0,0)" height="80" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="150" x="313" y="141" />
-  <rect fill="rgb(255,255,224)" height="30" stroke="rgb(0,0,0)" stroke-dasharray="0 65535" width="20" x="145" y="25" />
+  <rect fill="rgb(255,255,255)" height="202" style="filter:url(#filter_blur)" width="170" x="70" y="19"></rect>
+  <rect fill="rgb(211,211,211)" height="97" style="filter:url(#filter_blur)" width="170" x="70" y="19"></rect>
+  <rect fill="rgb(255,255,255)" height="202" style="filter:url(#filter_blur)" width="170" x="300" y="19"></rect>
+  <rect fill="rgb(211,211,211)" height="97" style="filter:url(#filter_blur)" width="170" x="300" y="19"></rect>
+  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="148" y="31"></rect>
+  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="148" y="86"></rect>
+  <rect fill="rgb(0,0,0)" height="80" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="150" x="83" y="141"></rect>
+  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="378" y="31"></rect>
+  <rect fill="rgb(0,0,0)" height="30" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="20" x="378" y="86"></rect>
+  <rect fill="rgb(0,0,0)" height="80" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="150" x="313" y="141"></rect>
+  <rect fill="rgb(255,255,224)" height="30" stroke="rgb(0,0,0)" stroke-dasharray="0 65535" width="20" x="145" y="25"></rect>
   <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="10" x="155.0" y="47">x</text>
-  <rect fill="rgb(255,255,224)" height="30" stroke="rgb(0,0,0)" stroke-dasharray="0 65535" width="20" x="145" y="80" />
+  <rect fill="rgb(255,255,224)" height="30" stroke="rgb(0,0,0)" stroke-dasharray="0 65535" width="20" x="145" y="80"></rect>
   <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="10" x="155.0" y="104">y</text>
-  <rect fill="rgb(255,192,203)" height="80" stroke="rgb(255,192,203)" width="150" x="80" y="135" />
-  <image height="80" width="150" x="80" xlink:href="diag/maxfn.png" y="135" />
-  <rect fill="none" height="80" stroke="rgb(0,0,0)" width="150" x="80" y="135" />
-  <rect fill="rgb(255,165,0)" height="30" stroke="rgb(0,0,0)" width="20" x="375" y="25" />
+  <rect fill="rgb(255,192,203)" height="80" stroke="rgb(255,192,203)" width="150" x="80" y="135"></rect>
+  <image height="80" width="150" x="80" xlink:href="data:image/png;base64,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" y="135"></image>
+  <rect fill="none" height="80" stroke="rgb(0,0,0)" width="150" x="80" y="135"></rect>
+  <rect fill="rgb(255,165,0)" height="30" stroke="rgb(0,0,0)" width="20" x="375" y="25"></rect>
   <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="10" x="385.0" y="47">3</text>
-  <rect fill="rgb(255,165,0)" height="30" stroke="rgb(0,0,0)" width="20" x="375" y="80" />
+  <rect fill="rgb(255,165,0)" height="30" stroke="rgb(0,0,0)" width="20" x="375" y="80"></rect>
   <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="10" x="385.0" y="102">4</text>
-  <rect fill="rgb(255,192,203)" height="80" stroke="rgb(255,192,203)" width="150" x="310" y="135" />
-  <image height="80" width="150" x="310" xlink:href="diag/maxfncall.png" y="135" />
-  <rect fill="none" height="80" stroke="rgb(0,0,0)" width="150" x="310" y="135" />
-  <path d="M 165 40 L 367 40" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
-  <polygon fill="rgb(0,0,0)" points="374,40 367,36 367,44 374,40" stroke="rgb(0,0,0)" />
-  <path d="M 165 95 L 367 95" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
-  <polygon fill="rgb(0,0,0)" points="374,95 367,91 367,99 374,95" stroke="rgb(0,0,0)" />
-  <path d="M 165 40 L 367 40" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
-  <polygon fill="rgb(0,0,0)" points="374,40 367,36 367,44 374,40" stroke="rgb(0,0,0)" />
-  <path d="M 165 95 L 367 95" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4" />
-  <polygon fill="rgb(0,0,0)" points="374,95 367,91 367,99 374,95" stroke="rgb(0,0,0)" />
+  <rect fill="rgb(255,192,203)" height="80" stroke="rgb(255,192,203)" width="150" x="310" y="135"></rect>
+  <image height="80" width="150" x="310" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAAeCAMAAAAy5/ObAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAmVBMVEX/wMu2TQAAAABmicv/wJFmAAAAAFG2wMv/iVEALHPbwMvbiZGQTVE6LC4ALC5mbJHbpcvbbC4ATZH/wK6QLAAAAC5mia6Qpcs6TXOQia7biXNmLAC2iVH/pXM6AAA6bK6QiZG2bC4ALFG2pcv/pa62bFFmLC46LFFmTS7biVGQbJHbpa62TS46LAC2pa46bJH/pZGQTS7///9xYw5IAAAAAWJLR0QyQNJMyAAAAAlwSFlzAAAASAAAAEgARslrPgAAAAd0SU1FB+IJEwonJDO1WUsAAAJnSURBVFjD7ZjpUtswEICtDYcwtMWBQEiwXQIt99H3f7nu6rBXkWQP6UwtM94fOSQ72W9vK8smmWSSSSaZJCACZrveurd/cDi0+v8gEo5y8/H45BsAfP9x2o0Lra0KmA+t/+5ydt6ACDCyuOi4ga5q0Pf2F5dDE+wsEpqYFcurU3xbraEjBSRwdDTEaN2OTvd0x5BucsDfO7jm6GU1WreXVcDDAqLVq4BacnQ0Uz00A2m1+LmmPL2pYHNLK3e/fleYufdXllJ7iBeqIkQZRy+ro9xBx2ujEfI/0XWNeqBX0gdZjWjtUGeFhIXKBjnGu685miaSwKomuugSEoh4RJ/njwh6gXCkT3n/9Izrdy8WVTMX0OIGKM9WVZRG9TIXPZgxA6DPiAU962pnLKGcBnXJyfALT1W6AGV5G/6HsqKocX88iWQvCElX5y2iRlnCfgW2t2WjHnSh7vTQh29vCl0nbwxd14N5aKfFf4wFvJn7xoG+erCVzlpCgFO9ZWh6ifR1XJ7596SJbsLXQS8cp4fRddXwxA5uY0BHDy/fjLIGXfU7lgtbmdG5KoBJEzrhawdGb/3RoNMwAzyTwz77JHoKzc1FbwGERafGXvBsD440kYC3kuRI46Frj1KU10ZppBY83UODrJ4NGits2ybJQdZFpyr3nqtmpdHNMOOcNbB4lZun55ymuTUrB33oSUw0fpmzM/zmGmzBr7OMPcdkzkOr9PtBP3oS8R7o6x9/KjpvynWZawOd87Cjig/1oOceUAnwvCq/yFEF2aojYnnah/dTcPquIrvqVF/XHvWxZPdhdNHn9IEPo/8Cy3gquoqygCoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDgtMTNUMTg6MzQ6MDcrMDI6MDBcXhmeAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA5LTE5VDA4OjM5OjM2KzAyOjAwTlv9xwAAAABJRU5ErkJggg==" y="135"></image>
+  <rect fill="none" height="80" stroke="rgb(0,0,0)" width="150" x="310" y="135"></rect>
+  <path d="M 165 40 L 367 40" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4"></path>
+  <polygon fill="rgb(0,0,0)" points="374,40 367,36 367,44 374,40" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 165 95 L 367 95" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4"></path>
+  <polygon fill="rgb(0,0,0)" points="374,95 367,91 367,99 374,95" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 165 40 L 367 40" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4"></path>
+  <polygon fill="rgb(0,0,0)" points="374,40 367,36 367,44 374,40" stroke="rgb(0,0,0)"></polygon>
+  <path d="M 165 95 L 367 95" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="4"></path>
+  <polygon fill="rgb(0,0,0)" points="374,95 367,91 367,99 374,95" stroke="rgb(0,0,0)"></polygon>
   <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="114" x="155.0" y="24">Parámetros formales</text>
-  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="8" font-style="normal" font-weight="normal" text-anchor="middle" textLength="52" x="385.0" y="23">Marco de pila</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="52" x="385.0" y="23">Marco de pila</text>
 </svg>
