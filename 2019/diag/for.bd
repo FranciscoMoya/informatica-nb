@@ -1,0 +1,11 @@
+blockdiag {
+    A -> IN -> B -> OUT -> C
+    
+    default_fontsize = 24
+    default_node_color = "orange"
+    default_group_color = "lightgray"
+    
+    IN[label="Para x en ...", shape="flowchart.loopin", fontsize=20, width=150]    
+    OUT[label="", shape="flowchart.loopout", width=150]
+    group { orientation=portrait; IN; B; OUT; }
+}

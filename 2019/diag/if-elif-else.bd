@@ -1,0 +1,23 @@
+blockdiag {
+    A -> IF1,IF2,IF3,B
+    IF1 -> B1
+    IF2 -> B2
+    IF3 -> B3
+    B1,B2,B3,B -> C
+    
+    default_fontsize = 24
+    default_node_color = "orange"
+    
+    IF1,IF2,IF3[shape="flowchart.condition", fontsize=20]
+    IF1[label="cond1"]
+    IF2[label="cond2"]
+    IF3,B3[shape="dots"]
+    
+    A -> IF2,IF3,B [style=none]
+    IF1 -> B1
+    IF2 -> B2
+    IF3 -> B3 [style=none]
+    IF1 -> IF2 [folded]
+    IF2 -> IF3 [folded]
+    IF3 -> B [label="else", folded]
+}

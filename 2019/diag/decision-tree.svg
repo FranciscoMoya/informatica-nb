@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg viewBox="0 0 406 360" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2" />
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc>blockdiag {
+    default_fontsize = 18
+    default_node_color = "orange"
+
+    E -&gt; E0
+    E -&gt; E1 [label="toma E0", fontsize=10]
+    E0 -&gt; E00
+    E0 -&gt; E01 [label="toma E1", fontsize=10]
+    E1 -&gt; E10
+    E1 -&gt; E11 [label="toma E1", fontsize=10]
+    //E00 -&gt; E000
+    //E00 -&gt; E001
+    //E01 -&gt; E010
+    //E01 -&gt; E011
+    //E10 -&gt; E100
+    //E10 -&gt; E101
+    //E11 -&gt; E110
+    //E11 -&gt; E111
+
+    E,E0,E1,E00,E01,E10,E11 [width = 50, shape=roundedbox]
+    //E000,E001,E010,E011,E100,E101,E110,E111 [width = 50, shape=roundedbox]
+    E [label=""]
+    E0 [label="0"]
+    E1 [label="1"]
+    E00 [label="00"]
+    E01 [label="01"]
+    E10 [label="10"]
+    E11 [label="11"]
+    //E000 [label="000"]
+    //E001 [label="001"]
+    //E010 [label="010"]
+    //E011 [label="011"]
+    //E100 [label="100"]
+    //E101 [label="101"]
+    //E110 [label="110"]
+    //E111 [label="111"]
+}</desc>
+  <path d="M 75 46 L 109 46 A8,8 0 0 1 117 54 L 117 78 A8,8 0 0 1 109 86 L 75 86 A8,8 0 0 1 67 78 L 67 54 A8,8 0 0 1 75 46" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <path d="M 189 46 L 223 46 A8,8 0 0 1 231 54 L 231 78 A8,8 0 0 1 223 86 L 189 86 A8,8 0 0 1 181 78 L 181 54 A8,8 0 0 1 189 46" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <path d="M 189 206 L 223 206 A8,8 0 0 1 231 214 L 231 238 A8,8 0 0 1 223 246 L 189 246 A8,8 0 0 1 181 238 L 181 214 A8,8 0 0 1 189 206" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <path d="M 303 46 L 337 46 A8,8 0 0 1 345 54 L 345 78 A8,8 0 0 1 337 86 L 303 86 A8,8 0 0 1 295 78 L 295 54 A8,8 0 0 1 303 46" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <path d="M 303 126 L 337 126 A8,8 0 0 1 345 134 L 345 158 A8,8 0 0 1 337 166 L 303 166 A8,8 0 0 1 295 158 L 295 134 A8,8 0 0 1 303 126" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <path d="M 303 206 L 337 206 A8,8 0 0 1 345 214 L 345 238 A8,8 0 0 1 337 246 L 303 246 A8,8 0 0 1 295 238 L 295 214 A8,8 0 0 1 303 206" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <path d="M 303 286 L 337 286 A8,8 0 0 1 345 294 L 345 318 A8,8 0 0 1 337 326 L 303 326 A8,8 0 0 1 295 318 L 295 294 A8,8 0 0 1 303 286" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <path d="M 72 40 L 106 40 A8,8 0 0 1 114 48 L 114 72 A8,8 0 0 1 106 80 L 72 80 A8,8 0 0 1 64 72 L 64 48 A8,8 0 0 1 72 40" fill="rgb(255,165,0)" stroke="rgb(0,0,0)" />
+  <path d="M 186 40 L 220 40 A8,8 0 0 1 228 48 L 228 72 A8,8 0 0 1 220 80 L 186 80 A8,8 0 0 1 178 72 L 178 48 A8,8 0 0 1 186 40" fill="rgb(255,165,0)" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="9" x="203.5" y="68">0</text>
+  <path d="M 186 200 L 220 200 A8,8 0 0 1 228 208 L 228 232 A8,8 0 0 1 220 240 L 186 240 A8,8 0 0 1 178 232 L 178 208 A8,8 0 0 1 186 200" fill="rgb(255,165,0)" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="9" x="203.5" y="228">1</text>
+  <path d="M 300 40 L 334 40 A8,8 0 0 1 342 48 L 342 72 A8,8 0 0 1 334 80 L 300 80 A8,8 0 0 1 292 72 L 292 48 A8,8 0 0 1 300 40" fill="rgb(255,165,0)" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="18" x="317.0" y="68">00</text>
+  <path d="M 300 120 L 334 120 A8,8 0 0 1 342 128 L 342 152 A8,8 0 0 1 334 160 L 300 160 A8,8 0 0 1 292 152 L 292 128 A8,8 0 0 1 300 120" fill="rgb(255,165,0)" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="18" x="317.0" y="148">01</text>
+  <path d="M 300 200 L 334 200 A8,8 0 0 1 342 208 L 342 232 A8,8 0 0 1 334 240 L 300 240 A8,8 0 0 1 292 232 L 292 208 A8,8 0 0 1 300 200" fill="rgb(255,165,0)" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="18" x="317.0" y="228">10</text>
+  <path d="M 300 280 L 334 280 A8,8 0 0 1 342 288 L 342 312 A8,8 0 0 1 334 320 L 300 320 A8,8 0 0 1 292 312 L 292 288 A8,8 0 0 1 300 280" fill="rgb(255,165,0)" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="18" font-style="normal" font-weight="normal" text-anchor="middle" textLength="18" x="317.0" y="308">11</text>
+  <path d="M 114 60 L 170 60" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="177,60 170,56 170,64 177,60" stroke="rgb(0,0,0)" />
+  <path d="M 114 60 L 146 60" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 146 60 L 146 220" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 146 220 L 170 220" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="177,220 170,216 170,224 177,220" stroke="rgb(0,0,0)" />
+  <path d="M 228 60 L 284 60" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="291,60 284,56 284,64 291,60" stroke="rgb(0,0,0)" />
+  <path d="M 228 60 L 260 60" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 260 60 L 260 140" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 260 140 L 284 140" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="291,140 284,136 284,144 291,140" stroke="rgb(0,0,0)" />
+  <path d="M 228 220 L 284 220" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="291,220 284,216 284,224 291,220" stroke="rgb(0,0,0)" />
+  <path d="M 228 220 L 260 220" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 260 220 L 260 300" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 260 300 L 284 300" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="291,300 284,296 284,304 291,300" stroke="rgb(0,0,0)" />
+  <rect fill="white" height="13" stroke="rgb(0,0,0)" width="51" x="121" y="199" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="10" font-style="normal" font-weight="normal" text-anchor="middle" textLength="35" x="146.5" y="210">toma E0</text>
+  <rect fill="white" height="13" stroke="rgb(0,0,0)" width="51" x="235" y="119" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="10" font-style="normal" font-weight="normal" text-anchor="middle" textLength="35" x="260.5" y="130">toma E1</text>
+  <rect fill="white" height="13" stroke="rgb(0,0,0)" width="51" x="235" y="279" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="10" font-style="normal" font-weight="normal" text-anchor="middle" textLength="35" x="260.5" y="290">toma E1</text>
+</svg>

@@ -1,0 +1,19 @@
+blockdiag {
+    default_fontsize = 18
+    default_node_color = "orange"
+    default_group_color = "lightgray"
+    span_width = 80
+    span_height = 25
+    
+    x,y,3,4 [width=20, height=30]
+    x,y [style=none, color=lightyellow]
+    fun [label="", background="diag/maxfn.png", color="pink", height=80, width=150]
+    call [label="", background="diag/maxfncall.png", color=pink, height=80, width=150]
+
+    group { color=white; group { label="Parámetros formales"; fontsize=14; orientation=portrait; x; y; }; fun; }
+    group { color=white; group{ label="Marco de pila"; fontsize=14; orientation=portrait; 3; 4;}; call; }
+    x -> 3 [style=dashed]; y -> 4 [style=dashed]
+    x -> y [style=none]
+    3 -> 4 [style=none]
+    fun -> call [style=none]
+}

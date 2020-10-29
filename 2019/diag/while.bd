@@ -1,0 +1,16 @@
+blockdiag {
+    A -> IF,B -> C
+    IF -> B  
+    
+    default_fontsize = 24
+    span_height = 80
+    default_node_color = "orange"
+    default_group_color = "lightgray"
+    
+    IF[label="Condición", shape="flowchart.condition", width=170, fontsize=20]    
+    IF -> B [folded,label="True",fontsize=14]
+    IF -> C [label="False",fontsize=14]
+    A -> B [dir=none]
+    B -> C [style=none]
+    group { IF; B; }
+}

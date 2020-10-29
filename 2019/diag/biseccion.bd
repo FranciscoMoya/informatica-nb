@@ -1,0 +1,11 @@
+blockdiag {
+    G -> min -> A -> B -> C -> conjetura -> D -> E -> F -> max -> H [dir=none, style=dotted]
+    
+    default_fontsize = 24
+    default_node_color = "orange"
+    default_group_color = "lightgray"
+    
+    min,max,conjetura [style=none]
+    A,B,C,D,E,F [label="",width=1]
+    G,H [shape=none]
+}

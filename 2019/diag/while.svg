@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg viewBox="0 0 682 320" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2" />
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc>blockdiag {
+    A -&gt; IF,B -&gt; C
+    IF -&gt; B  
+    
+    default_fontsize = 24
+    span_height = 80
+    default_node_color = "orange"
+    default_group_color = "lightgray"
+    
+    IF[label="Condición", shape="flowchart.condition", width=170, fontsize=20]    
+    IF -&gt; B [folded,label="True",fontsize=14]
+    IF -&gt; C [label="False",fontsize=14]
+    A -&gt; B [dir=none]
+    B -&gt; C [style=none]
+    group { IF; B; }
+}</desc>
+  <rect fill="rgb(211,211,211)" height="200" style="filter:url(#filter_blur)" width="186" x="248" y="60" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="86" />
+  <polygon fill="rgb(0,0,0)" points="344,78 437,106 344,134 251,106 344,78" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="280" y="206" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="493" y="86" />
+  <rect fill="rgb(255,165,0)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="80" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="24" font-style="normal" font-weight="normal" text-anchor="middle" textLength="12" x="128.0" y="111">A</text>
+  <polygon fill="rgb(255,165,0)" points="341,72 434,100 341,128 248,100 341,72" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="20" font-style="normal" font-weight="normal" text-anchor="middle" textLength="90" x="341.0" y="109">Condición</text>
+  <rect fill="rgb(255,165,0)" height="40" stroke="rgb(0,0,0)" width="128" x="277" y="200" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="24" font-style="normal" font-weight="normal" text-anchor="middle" textLength="12" x="341.0" y="231">B</text>
+  <rect fill="rgb(255,165,0)" height="40" stroke="rgb(0,0,0)" width="128" x="490" y="80" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="24" font-style="normal" font-weight="normal" text-anchor="middle" textLength="12" x="554.0" y="111">C</text>
+  <path d="M 192 100 L 240 100" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="247,100 240,96 240,104 247,100" stroke="rgb(0,0,0)" />
+  <path d="M 192 100 L 224 100" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 224 100 L 224 220" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 224 220 L 277 220" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 434 100 L 482 100" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="489,100 482,96 482,104 489,100" stroke="rgb(0,0,0)" />
+  <path d="M 341 128 L 341 192" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="341,199 337,192 345,192 341,199" stroke="rgb(0,0,0)" />
+  <rect fill="white" height="17" stroke="rgb(0,0,0)" width="51" x="433" y="72" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="normal" text-anchor="middle" textLength="35" x="458.5" y="87">False</text>
+  <rect fill="white" height="17" stroke="rgb(0,0,0)" width="44" x="378" y="132" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="normal" text-anchor="middle" textLength="28" x="400.0" y="147">True</text>
+</svg>
