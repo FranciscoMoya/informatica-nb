@@ -1,9 +1,0 @@
-<svg width="250" height="120">
-<rect x="0" y="0" width="100%" height="100%" fill="pink" stroke-width="0"/>
-<text style="font-family: monospace; font-size: 150%;">
- <tspan dy="1em" x="5" >def max(x,y):</tspan>
- <tspan dy="1em" x="2em" >if x > y:</tspan>
- <tspan dy="1em" x="4em" >return x</tspan>
- <tspan dy="1em" x="2em" >return y</tspan>
-</text>
-</svg>

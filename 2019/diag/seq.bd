@@ -1,8 +1,0 @@
-blockdiag {
-    default_fontsize = 24
-    span_height = 80
-    default_node_color = "orange"
-
-    default_fontsize = 24
-    A -> B -> C
-}
